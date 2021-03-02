@@ -12,10 +12,29 @@
 
 // Create 1 of each type of variable
 // Integer
+let number = 5;
 // String
+let text = 'string cheese';
 // Array
+let arr = ['pink', 'yellow', 'orange'];
 // Object 
+let sunset = {
+    bottom: 'violet',
+    middle: 'red',
+    top: 'tangerine'
+};
 // console log each variable
-
+console.log(number);
+console.log(text);
+console.log(arr);
+console.log(sunset);
 // BONUS
 // can you log each variable using a loop?
+let i;
+for (i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+};
+let x;
+for (x in sunset) {
+    console.log(sunset[x]);
+};
